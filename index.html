@@ -4,43 +4,83 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Douglas Varjão | Portfólio</title>
-  
-  <!-- Estilo CSS direto aqui no HTML -->
-<style>
-  body {
-    background-color: #1b1b1b;
-    color: #f0f0f0;
-    font-family: 'Segoe UI', sans-serif;
-    margin: 20px;
-  }
 
-  h1, h2 {
-    color: #e60028;
-  }
+  <!-- Fonte moderna da Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
 
-  a {
-    color: #c40024;
-    text-decoration: none;
-  }
+  <!-- Estilo CSS direto no HTML -->
+  <style>
+    /* Define o fundo, cor da fonte e estilo geral */
+    body {
+      background: linear-gradient(to right, #1b1b1b, #2c2c2c); /* Efeito tech */
+      color: #f0f0f0;
+      font-family: 'Inter', sans-serif;
+      margin: 0;
+      padding: 20px 40px;
+    }
 
-  a:hover {
-    text-decoration: underline;
-  }
+    h1 {
+      font-size: 2.5rem;
+      color: #e60028;
+      margin-bottom: 5px;
+    }
 
-  .projetos ul {
-    padding-left: 20px;
-    line-height: 1.6;
-  }
+    .subtitle {
+      color: #cccccc;
+      margin-top: 0;
+      font-size: 1.1rem;
+    }
 
-  .projetos h2 {
-    padding-left: 10px;
-  }
-</style>
+    h2 {
+      color: #e60028;
+      border-bottom: 1px solid #333;
+      padding-bottom: 5px;
+      margin-top: 40px;
+    }
 
+    a {
+      color: #c40024;
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    section {
+      margin-bottom: 30px;
+    }
+
+    .projetos ul {
+      list-style: none;
+      padding-left: 0;
+    }
+
+    .projetos li {
+      background-color: #2a2a2a;
+      padding: 15px;
+      margin-bottom: 10px;
+      border-radius: 8px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+      transition: transform 0.2s;
+    }
+
+    .projetos li:hover {
+      transform: translateY(-3px);
+    }
+
+    footer {
+      text-align: center;
+      margin-top: 50px;
+      color: #888;
+      font-size: 0.9rem;
+    }
+  </style>
 </head>
 
 <body>
-  <!-- Cabeçalho do site -->
+
+  <!-- Cabeçalho -->
   <header>
     <h1>Douglas Varjão</h1>
     <p class="subtitle">Portfólio | IA • Análise de Dados • BI • Automação</p>
@@ -53,14 +93,14 @@
   </section>
 
   <!-- Projetos -->
-<section class="projetos">
-  <h2>💻 Projetos</h2>
-  <ul>
-    <li><strong>Dashboard </strong> – Análise de chamados de TI</li>
-    <li><strong>Automação com Python</strong> – Relatórios diários via e-mail</li>
-    <li><strong>Chatbot IA</strong> – Baseado na API da OpenAI</li>
-  </ul>
-</section>
+  <section class="projetos">
+    <h2>💻 Projetos</h2>
+    <ul>
+      <li><strong>Dashboard com Power BI</strong> – Análise de chamados de TI</li>
+      <li><strong>Automação com Python</strong> – Relatórios diários via e-mail</li>
+      <li><strong>Chatbot IA</strong> – Baseado na API da OpenAI</li>
+    </ul>
+  </section>
 
   <!-- Contato -->
   <section>
