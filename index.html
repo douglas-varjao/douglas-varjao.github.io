@@ -5,46 +5,35 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Douglas Varjão | Portfólio</title>
 
-  <!-- Fonte e ícones -->
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet" />
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+  <!-- Fonte e Ícones -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 
   <style>
-    body {
+    * {
       margin: 0;
       padding: 0;
-      font-family: 'Poppins', sans-serif;
-      background: linear-gradient(135deg, #0f0c29, #302b63, #24243e);
-      color: #e0e0e0;
-      background-size: 400% 400%;
-      animation: gradientAnimation 15s ease infinite;
+      box-sizing: border-box;
     }
 
-    @keyframes gradientAnimation {
-      0% { background-position: 0% 50%; }
-      50% { background-position: 100% 50%; }
-      100% { background-position: 0% 50%; }
+    body {
+      font-family: 'Poppins', sans-serif;
+      background: linear-gradient(to bottom right, #1a1a1a, #2c2c2c);
+      color: #f0f0f0;
+      line-height: 1.6;
+      padding-top: 80px; /* Espaço para o menu fixo */
     }
 
     header {
+      background-color: #121212;
+      color: #f0f0f0;
+      padding: 15px 0;
+      text-align: center;
       position: fixed;
       top: 0;
       width: 100%;
-      background: rgba(15, 12, 41, 0.9);
-      padding: 20px;
-      box-shadow: 0 2px 10px rgba(0,0,0,0.5);
       z-index: 1000;
-    }
-
-    header h1 {
-      font-size: 2rem;
-      color: #ff0057;
-      margin: 0;
-    }
-
-    .subtitle {
-      font-size: 0.9rem;
-      color: #cfcfcf;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.3);
     }
 
     nav {
@@ -52,10 +41,10 @@
     }
 
     nav a {
-      color: #fff;
-      margin-right: 20px;
+      margin: 0 15px;
       text-decoration: none;
-      font-weight: 500;
+      color: #e60028;
+      font-weight: 600;
     }
 
     nav a:hover {
@@ -63,67 +52,45 @@
     }
 
     main {
-      padding: 140px 20px 40px;
       max-width: 800px;
       margin: auto;
+      padding: 20px;
     }
 
-    h2 {
-      color: #ffffff;
-      border-left: 4px solid #ff0057;
-      padding-left: 10px;
-      margin-top: 40px;
+    h1, h2 {
+      color: #e60028;
     }
 
     .projetos ul {
-      list-style: none;
-      padding-left: 0;
+      padding-left: 20px;
     }
 
-    .projetos li {
-      background: rgba(255, 255, 255, 0.05);
-      border: 1px solid rgba(255, 255, 255, 0.1);
-      border-radius: 12px;
-      padding: 20px;
-      margin-bottom: 15px;
-      transition: transform 0.3s ease;
-    }
-
-    .projetos li:hover {
-      transform: translateY(-5px);
-    }
-
-    .projetos a {
-      color: #ff3377;
-    }
-
-    .social-icons a {
-      color: #fff;
+    .icons a {
       margin-right: 15px;
-      font-size: 1.4rem;
+      color: #f0f0f0;
+      font-size: 1.3rem;
     }
 
-    .btn-download {
+    .icons a:hover {
+      color: #e60028;
+    }
+
+    .curriculo {
       display: inline-block;
       margin-top: 10px;
-      padding: 10px 20px;
-      background: #ff0057;
+      padding: 8px 15px;
+      background-color: #e60028;
       color: #fff;
       text-decoration: none;
-      border-radius: 6px;
-      transition: background 0.3s;
-    }
-
-    .btn-download:hover {
-      background: #e6004e;
+      border-radius: 5px;
     }
 
     footer {
       text-align: center;
+      margin-top: 40px;
+      padding: 20px;
       font-size: 0.9rem;
-      color: #999;
-      margin-top: 60px;
-      padding-bottom: 20px;
+      color: #ccc;
     }
   </style>
 </head>
@@ -142,39 +109,30 @@
     <section id="sobre">
       <h2>👋 Sobre mim</h2>
       <p>Sou um profissional em transição de carreira, focado em Inteligência Artificial, Análise de Dados, BI e Automação. Estou desenvolvendo projetos práticos para criar impacto real com tecnologia.</p>
-      <a class="btn-download" href="curriculo-douglas.pdf" download>📄 Baixar Currículo</a>
     </section>
 
     <section id="projetos" class="projetos">
       <h2>💻 Projetos</h2>
       <ul>
-        <li>
-          <strong>Dashboard com Power BI</strong><br>
-          <a href="https://link-projeto-dashboard.com" target="_blank">Ver projeto</a>
-        </li>
-        <li>
-          <strong>Automatização com Python</strong><br>
-          <a href="https://link-projeto-python.com" target="_blank">Ver projeto</a>
-        </li>
-        <li>
-          <strong>Chatbot com IA (OpenAI)</strong><br>
-          <a href="https://link-chatbot-openai.com" target="_blank">Ver projeto</a>
-        </li>
+        <li><strong><a href="#">Dashboard BI</a></strong> – Análise de chamados de TI</li>
+        <li><strong><a href="#">Automação com Python</a></strong> – Relatórios diários via e-mail</li>
+        <li><strong><a href="#">Chatbot IA</a></strong> – Baseado na API da OpenAI</li>
       </ul>
     </section>
 
     <section id="contato">
       <h2>📫 Contato</h2>
-      <div class="social-icons">
+      <div class="icons">
         <a href="https://www.linkedin.com/in/douglas-vm-varjao" target="_blank"><i class="fab fa-linkedin"></i></a>
         <a href="https://github.com/douglas-varjao" target="_blank"><i class="fab fa-github"></i></a>
         <a href="mailto:douglas@email.com"><i class="fas fa-envelope"></i></a>
       </div>
+      <a class="curriculo" href="curriculo-douglas.pdf" download>📄 Baixar Currículo</a>
     </section>
-  </main>
 
-  <footer>
-    &copy; 2025 Douglas Varjão. Todos os direitos reservados.
-  </footer>
+    <footer>
+      &copy; 2025 Douglas Varjão. Todos os direitos reservados.
+    </footer>
+  </main>
 </body>
 </html>
