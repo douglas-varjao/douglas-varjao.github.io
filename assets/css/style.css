@@ -1,1 +1,137 @@
+:root {
+  --bg-color: #1a1a1a;
+  --primary-color: #e60028;
+  --text-color: #f0f0f0;
+  --subtitle-color: #aaa;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  margin: 0;
+  padding: 0;
+}
+
+/* Cabeçalho */
+.header {
+  background-color: #121212;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 1000;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
+.nav__logo {
+  color: var(--primary-color);
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.nav__list {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.nav__link {
+  color: var(--text-color);
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.nav__link:hover {
+  color: var(--primary-color);
+}
+
+/* Seções */
+.section {
+  padding: 100px 20px 60px;
+  max-width: 900px;
+  margin: auto;
+}
+
+.section__title {
+  font-size: 2rem;
+  color: var(--primary-color);
+  margin-bottom: 20px;
+}
+
+.section__subtitle {
+  font-size: 1rem;
+  color: var(--subtitle-color);
+}
+
+/* Projetos */
+.projetos__container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.projeto__item {
+  background-color: #2a2a2a;
+  padding: 20px;
+  border-radius: 8px;
+  width: calc(33.333% - 13.333px);
+}
+
+.projeto__img {
+  width: 100%;
+  border-radius: 8px;
+}
+
+.projeto__title {
+  margin-top: 10px;
+  color: var(--primary-color);
+}
+
+.projeto__description {
+  color: var(--subtitle-color);
+}
+
+/* Contato */
+.contato__icons {
+  display: flex;
+  gap: 20px;
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+}
+
+.contato__icons a {
+  color: var(--text-color);
+}
+
+.contato__icons a:hover {
+  color: var(--primary-color);
+}
+
+.curriculo {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: var(--primary-color);
+  color: #fff;
+  text-decoration: none;
+  border-radius: 30px;
+  font-weight: 600;
+}
+
+.curriculo:hover {
+  background-color: #ff2e4d;
+}
+
+/* Rodapé */
+.footer {
+  text-align: center;
+  padding: 30px;
+  font-size: 0.9rem;
+  color: #999;
+}
 
