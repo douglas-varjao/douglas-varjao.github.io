@@ -4,52 +4,106 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Douglas Varjão | Portfólio</title>
+  
+  <!-- Estilo CSS direto aqui no HTML -->
   <style>
-    body {
-      font-family: Arial, sans-serif;
-      background-color: #f9f9f9;
+    * {
       margin: 0;
-      padding: 2rem;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background: linear-gradient(120deg, #f0f4f8, #ffffff);
       color: #333;
+      line-height: 1.6;
+      padding: 2rem;
     }
+
+    header {
+      text-align: center;
+      margin-bottom: 3rem;
+    }
+
     h1 {
+      font-size: 2.5rem;
+      color: #2c3e50;
+    }
+
+    p.subtitle {
+      font-size: 1.2rem;
+      color: #555;
+    }
+
+    section {
+      max-width: 800px;
+      margin: 0 auto 2.5rem auto;
+      padding: 1rem;
+      background: #fff;
+      border-radius: 12px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.05);
+    }
+
+    h2 {
       color: #007acc;
+      margin-bottom: 0.5rem;
     }
-    .section {
-      margin-bottom: 2rem;
+
+    ul li {
+      margin: 0.5rem 0;
     }
+
     footer {
+      text-align: center;
       margin-top: 3rem;
       font-size: 0.9rem;
-      color: #777;
+      color: #999;
+    }
+
+    a {
+      color: #007acc;
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
     }
   </style>
 </head>
+
 <body>
-  <h1>Douglas Varjão</h1>
-  <p>Portfólio de projetos em Inteligência Artificial, Análise de Dados, BI e Automação.</p>
+  <!-- Cabeçalho do site -->
+  <header>
+    <h1>Douglas Varjão</h1>
+    <p class="subtitle">Portfólio | IA • Análise de Dados • BI • Automação</p>
+  </header>
 
-  <div class="section">
-    <h2>🔍 Sobre mim</h2>
-    <p>Profissional em transição para a área de tecnologia, com foco em IA, dados e automações.</p>
-  </div>
+  <!-- Sobre -->
+  <section>
+    <h2>👋 Sobre mim</h2>
+    <p>Sou um profissional em transição de carreira, focado em Inteligência Artificial, Análise de Dados, BI e Automação. Estou desenvolvendo projetos práticos para criar impacto real com tecnologia.</p>
+  </section>
 
-  <div class="section">
-    <h2>📁 Projetos</h2>
+  <!-- Projetos -->
+  <section>
+    <h2>💻 Projetos</h2>
     <ul>
-      <li><strong>Análise de dados com Power BI</strong> – em breve</li>
-      <li><strong>Automação com Python</strong> – em breve</li>
-      <li><strong>IA com OpenAI API</strong> – em breve</li>
+      <li><strong>Dashboard BI com Power BI</strong> – Análise de chamados de TI</li>
+      <li><strong>Automação com Python</strong> – Relatórios diários via e-mail</li>
+      <li><strong>Chatbot IA</strong> – Baseado na API da OpenAI</li>
     </ul>
-  </div>
+  </section>
 
-  <div class="section">
+  <!-- Contato -->
+  <section>
     <h2>📫 Contato</h2>
-    <p>Email: douglas@email.com<br>GitHub: <a href="https://github.com/douglas-varjao" target="_blank">github.com/douglas-varjao</a></p>
-  </div>
+    <p>Email: douglas@email.com</p>
+    <p>GitHub: <a href="https://github.com/douglas-varjao" target="_blank">github.com/douglas-varjao</a></p>
+  </section>
 
+  <!-- Rodapé -->
   <footer>
-    &copy; 2025 Douglas Varjão — Portfólio pessoal
+    &copy; 2025 Douglas Varjão. Todos os direitos reservados.
   </footer>
 </body>
 </html>
