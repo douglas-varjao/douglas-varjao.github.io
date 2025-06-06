@@ -10,23 +10,26 @@ typeWrite(document.querySelector(".typewriter"));
 
 hoverChangeExperience(
   ".innovasfera",
-  `Trabalhei na InnovaSfera, onde tive a oportunidade de participar
-                de vários projetos para diversos clientes. Nessa trajetória,
-                trabalhei em várias criações de sites, sistemas e interfaces web
-                e mobile com a equipe de tecnologia da empresa. A InnovaSfera é
-                referência em qualidade e inovação em suas soluções
-                tecnológicas, seja em desenvolvimento ou infraestrutura.`,
-  "UX Designer & Desenvolvedor Frontend",
+  `Trabalhei na Ituran Road Track, onde tive a oportunidade de participar de diversos projetos. 
+                Nessa trajetória, atuei em várias implantações voltadas para as áreas de infraestrutura, 
+                redes e telecomunicações, prestando suporte ao time de Cyber Security e contribuindo com documentações 
+                e auditorias desses setores. Foi nesse período que tive meu primeiro contato com automações, 
+                utilizando ferramentas como Python, Power Automate e PowerShell.`,
+  "Analista de TI",
   "InnovaSfera",
-  "Maio 2024 - No momento (1 ano)"
+  "Ago 2019 - Jan 2025"
 );
 
 hoverChangeExperience(
   ".codelab",
-  `Na CodeLab Studio, lidero a criação e implementação de soluções tecnológicas voltadas para o design de produto e desenvolvimento de sistemas web. Nosso foco é entregar produtos inovadores, intuitivos e de alta performance para empresas de diversos segmentos.`,
-  "UX Designer & Desenvolvedor Frontend",
-  "CodeLab Studio",
-  "Jan 2023 - No momento (2 anos)"
+  `Na Ituran, atuo com automações, consultas, 
+                extração de relatórios e visualização de dados com Power BI.
+                transformo dados em decisões estratégicas.
+                Crio soluções que economizam tempo, reduzem erros e geram valor
+                real para as equipes e negócios.`,
+  "Analista de MIS Pleno",
+  "Ituran",
+  "Jan 2025 - Atual"
 );
 
 hoverChangeExperience(
