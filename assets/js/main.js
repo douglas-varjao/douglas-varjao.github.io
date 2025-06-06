@@ -31,49 +31,6 @@ hoverChangeExperience(
   "Ituran",
   "Jan 2025 - Atual"
 );
-
-hoverChangeExperience(
-  ".digitalhouse",
-  `Trabalhei como instrutor conteudista em frontend na
-  Digital House, o trabalho consistia em criar conteúdos para as
-  aulas de especialização frontend. Alguns temas dos conteúdos
-  realizados foram: React, Redux, TypeScript, Testes,
-  GraphQL, Next.js, MUI, React Hook Form e styled-components.`,
-  "Professor conteudista em Frontend",
-  "Digital House",
-  "Nov 2021 - Nov 2022 (1 ano)"
-);
-
-hoverChangeExperience(
-  ".zuplae",
-  `Trabalhei como Social Media e Designer na Zuplae que é um escola
-  de programação, onde teve como foco as criações de conteúdos sobre
-  programação para a comunidade dev através das redes sociais.`,
-  "Social Media e UX Designer",
-  "Zuplae",
-  "Jan 2022 - Abril 2022 (4 meses)"
-);
-
-hoverChangeExperience(
-  ".codigofontetv",
-  `Trabalhei como Social Media e Designer no Código Fonte TV, 
-  onde teve como foco as criações de conteúdos sobre programação 
-  para a comunidade dev através das redes sociais.`,
-  "Social Media e UX Designer",
-  "Código Fonte TV",
-  "Jun 2021 - Jan 2022 (8 meses)"
-);
-
-hoverChangeExperience(
-  ".contweb",
-  `Realizei o estágio na ContWeb, uma empresa de contabilidade. 
-  Onde pela primeira vez tive experiência com o React. Além do
-  desenvolvimento frontend criei os designs da nova plataforma da empresa.`,
-  "Developer frontend e UX Designer",
-  "ContWeb",
-  "Set 2021 - Nov 2021 (3 meses)"
-);
-
 hoverChangeDescription(
   ".html",
   "HTML é uma linguagem de marcação, onde marcamos os elementos para definir quais informações a página vai exibir."
