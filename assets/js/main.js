@@ -16,7 +16,7 @@ hoverChangeExperience(
                 e auditorias desses setores. Foi nesse período que tive meu primeiro contato com automações, 
                 utilizando ferramentas como Python, Power Automate e PowerShell.`,
   "Analista de TI",
-  "InnovaSfera",
+  "IRT | Ituran Road Track",
   "Ago 2019 - Jan 2025"
 );
 
