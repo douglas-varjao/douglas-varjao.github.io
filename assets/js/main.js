@@ -27,7 +27,7 @@ hoverChangeExperience(
                 transformo dados em decisões estratégicas.
                 Crio soluções que economizam tempo, reduzem erros e geram valor
                 real para as equipes e negócios.`,
-  "Analista de MIS Pleno",
+  "Analista de MIS",
   "Ituran",
   "Jan 2025 - Atual"
 );
