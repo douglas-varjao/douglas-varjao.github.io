@@ -61,7 +61,7 @@ hoverChangeDescription(
 );
 hoverChangeDescription(
   ".tailwind",
-  "Criação de aplicativos personalizados com integração a SharePoint, Dataverse e automações via Power Platform.
+  "Criação de aplicativos personalizados com integração a SharePoint, Dataverse e automações via Power Platform."
 );
 hoverChangeDescription(
   ".typescript",
