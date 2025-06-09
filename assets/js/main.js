@@ -33,49 +33,49 @@ hoverChangeExperience(
 );
 hoverChangeDescription(
   ".html",
-  "HTML é uma linguagem de marcação, onde marcamos os elementos para definir quais informações a página vai exibir."
+  "Consultas, modelagem e otimização de bancos de dados relacionais (SQL Server, MySQL, etc.)."
 );
 hoverChangeDescription(
   ".css",
-  "CSS é uma linguagem de folha de estilo composta por “camadas”, criado com o propósito de estilizar as páginas."
+  "Automação de tarefas, análises avançadas e scripts para ETL."
 );
 hoverChangeDescription(
   ".js",
-  "JavaScript é uma linguagem de programação que permite a você implementar elementos dinâmicos em páginas web."
+  "Desenvolvimento de queries, relatórios e formulários para pequenas bases de dados."
 );
 hoverChangeDescription(
   ".sass",
-  "Sass é um pré-processador CSS que adiciona alguns recursos que não estão disponíveis de forma nativa."
+  "Criação de dashboards interativos e relatórios dinâmicos com dados empresariais."
 );
 hoverChangeDescription(
   ".react",
-  "React é uma biblioteca JavaScript com foco em criar interfaces de usuário de forma componetizada."
+  "Tabelas dinâmicas, macros (VBA), fórmulas complexas e análise estatística."
 );
 hoverChangeDescription(
   ".next",
-  "Next.js é uma estrutura da web que permite funcionalidades como renderização do lado do servidor e geração de sites estáticos para web baseados em React."
+  "Fórmulas e transformações no Power BI (DAX) e modelagem de dados (Power Query)."
 );
 hoverChangeDescription(
   ".styled",
-  "styled-components é uma biblioteca que utiliza o conceito de CSS-in-JS, ou seja, que nos permite escrever códigos CSS dentro do Javascript."
+  "Criação de fluxos automatizados entre SharePoint, Teams, Forms, Excel etc."
 );
 hoverChangeDescription(
   ".tailwind",
-  "Tailwind CSS é um framework CSS que nos fornece classes utilitárias com o propósito de estilizar as páginas."
+  "Criação de aplicativos personalizados com integração a SharePoint, Dataverse e automações via Power Platform.
 );
 hoverChangeDescription(
   ".typescript",
-  "TypeScript é um superset do JavaScript que incluir recursos que não estão presentes na linguagem de forma nativa, além de torná-la estática."
+  "Listas, bibliotecas e gerenciamento de informações colaborativas na nuvem."
 );
 hoverChangeDescription(
   ".radix",
-  "Radix é uma biblioteca que fornece componentes acessíveis e sem estilos para a criação de aplicação em React."
+  "Noções de Azure AD, instâncias SQL no Azure, banco relacional na nuvem e pipelines de dados."
 );
 hoverChangeDescription(
   ".cypress",
-  "Cypress é um framework para automação de testes end-to-end, onde atualmente usa a linguagem JavaScript."
+  "Programação de microcontroladores com foco em projetos Arduino, automações físicas e controle de sensores e atuadores."
 );
 hoverChangeDescription(
   ".storybook",
-  "Storybook é uma ferramenta que tem como objetivo documentar e testar os componentes da aplicação."
+  "Estatística descritiva, visualização e storytelling para insights de negócio."
 );
